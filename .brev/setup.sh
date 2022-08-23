@@ -35,8 +35,7 @@ with open('.vscode-server/data/Machine/settings.json', 'r') as f:
 with open('.vscode-server/data/Machine/settings.json', 'w') as f:
     json.dump(data, f, indent=2)
 EOF
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension pranaygp.vscode-css-peek
+
 ## install and configure vim
 sudo apt update && sudo apt install -y vim
 
